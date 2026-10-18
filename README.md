@@ -59,6 +59,50 @@ npm run preview
 
 ---
 
+## How to Use
+
+### Getting Started
+
+1. Select a **tool** from the toolbar (top-left)
+2. **Draw** on the canvas by clicking and dragging
+3. Use the **Select** tool to move, resize, or delete elements
+
+### Tools
+
+| Tool | Icon | How to use |
+|------|------|------------|
+| **Select** | Arrow cursor | Click an element to select it. Drag to move. Shift+click for multi-select. |
+| **Rectangle** | Square outline | Click and drag to draw a rectangle |
+| **Ellipse** | Circle outline | Click and drag to draw an ellipse |
+| **Line** | Diagonal line | Click and drag to draw a line |
+| **Freehand** | Pen | Click and drag to draw freehand strokes |
+| **Text** | T | Click anywhere on the canvas to place text. Type in the editor. Click away to confirm. |
+| **Pan** | Hand | Click and drag to pan the canvas |
+
+### Color & Style
+
+- **Stroke color** — changes the outline color of shapes
+- **Fill color** — changes the inside color of shapes
+- **Stroke width** — adjusts the thickness of lines and outlines
+- **Opacity** — adjusts transparency
+
+### Navigation
+
+- **Zoom in/out** — scroll with your mouse wheel (zooms toward cursor)
+- **Pan** — select the Pan tool and drag, or hold Space and drag
+
+### Editing
+
+- **Delete** — select an element and press `Delete` or `Backspace`
+- **Clear all** — click the trash button in the toolbar (with confirmation)
+- **Right-click** — shows a context menu for the element under your cursor
+
+### Auto-Save
+
+Your work is **automatically saved** every 500 ms to your browser's IndexedDB. Close the tab, come back later — everything will be there.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |

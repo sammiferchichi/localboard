@@ -1,5 +1,8 @@
 # LocalBoard
 
+<img width="2560" height="1440" alt="+109 More" src="https://github.com/user-attachments/assets/8c8864ed-1fe6-4e36-aa83-28f3fe6afdb6" />
+
+
 A lightweight, zero-dependency personal whiteboard web app. Draw, annotate, and organize your ideas directly in your browser — no accounts, no servers, no tracking.
 
 Built with **TypeScript + Vite** and the native **Canvas 2D API**. All data stays in your browser via **IndexedDB**.
